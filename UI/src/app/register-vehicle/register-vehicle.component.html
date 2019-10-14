@@ -1,0 +1,39 @@
+<!-- Label to display any error messages -->
+<label class="error-message">{{errorMessage}}</label> 
+
+<!-- Expansion panel to add new vehicle -->
+ <div class="keep-comp-note-taker-pannel">
+    <mat-expansion-panel>
+        <mat-expansion-panel-header>
+            <mat-panel-title>
+                Take a vehicle
+            </mat-panel-title>
+        </mat-expansion-panel-header>
+        <div class="keep-comp-note-taker-wapper">          
+            <mat-form-field>
+                <textarea [(ngModel)] = 'vehicle.Number' name="Number" matInput placeholder="Vehicle Number"></textarea>
+            </mat-form-field>
+            <mat-form-field>
+              <textarea [(ngModel)] = 'vehicle.Name' name="Name" matInput placeholder="Vehicle Name"></textarea>
+          </mat-form-field>  
+          <mat-form-field>
+            <textarea [(ngModel)] = 'vehicle.Model' name="Model" matInput placeholder="Vehicle Model"></textarea>
+        </mat-form-field>
+        <mat-form-field>
+          <textarea [(ngModel)] = 'vehicle.City' name="Name" matInput placeholder="Vehicle City"></textarea>
+      </mat-form-field>              
+      <mat-form-field>
+          
+            <input matInput [matDatepicker]="picker" [(ngModel)] = 'vehicle.RegDate' name="RegDate" placeholder="Select register date">
+            <mat-datepicker-toggle matSuffix [for]="picker">
+              <mat-icon matDatepickerToggleIcon>Select Date</mat-icon>
+            </mat-datepicker-toggle>
+            <mat-datepicker #picker></mat-datepicker>               
+        
+    </mat-form-field>           
+            <div class="keep-comp-button">
+                <button color="warn" mat-raised-button (click) = 'AddVehicle()'>Add Vehicle</button><!-- () => event binding-->
+             </div>
+        </div>
+      </mat-expansion-panel>
+</div> 

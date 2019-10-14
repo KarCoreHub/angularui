@@ -1,0 +1,18 @@
+
+<div class="login-c-form-wrapper">
+    <form class="login-form">
+        <mat-form-field>
+            <input class="username" matInput [formControl]='username' placeholder="Enter your User Name" required>
+            <strong *ngIf="submitMessage" class="error-message">{{submitMessage}}</strong>
+        </mat-form-field>
+        <mat-form-field>
+            <input class="password" matInput type='password' [formControl]='password' placeholder="Enter your password" required>
+            <strong *ngIf="submitMessage" class="error-message">{{submitMessage}}</strong>
+        </mat-form-field>
+  
+    <div align='center'>
+        <button color="primary" mat-raised-button (click)='loginSubmit()'>Login</button>       
+    </div>
+    <label class="error-message">{{errorMessage}}</label> 
+</form>
+</div>

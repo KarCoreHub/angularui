@@ -1,0 +1,5 @@
+.keep-c-note-container{
+    padding : 50px;
+    display : flex;
+    flex-wrap : wrap; 
+}

@@ -1,0 +1,17 @@
+C:\Users\Vmuser\Downloads\S2\OTMS\AuthenticationService\AuthenticationService.Tests\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\Vmuser\Downloads\S2\OTMS\AuthenticationService\AuthenticationService.Tests\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\Vmuser\Downloads\S2\OTMS\AuthenticationService\AuthenticationService.Tests\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+C:\Users\Vmuser\Downloads\S2\OTMS\AuthenticationService\AuthenticationService.Tests\bin\Debug\netcoreapp2.1\OTMSService.Test.deps.json
+C:\Users\Vmuser\Downloads\S2\OTMS\AuthenticationService\AuthenticationService.Tests\bin\Debug\netcoreapp2.1\OTMSService.Test.runtimeconfig.json
+C:\Users\Vmuser\Downloads\S2\OTMS\AuthenticationService\AuthenticationService.Tests\bin\Debug\netcoreapp2.1\OTMSService.Test.runtimeconfig.dev.json
+C:\Users\Vmuser\Downloads\S2\OTMS\AuthenticationService\AuthenticationService.Tests\bin\Debug\netcoreapp2.1\OTMSService.Test.dll
+C:\Users\Vmuser\Downloads\S2\OTMS\AuthenticationService\AuthenticationService.Tests\bin\Debug\netcoreapp2.1\OTMSService.Test.pdb
+C:\Users\Vmuser\Downloads\S2\OTMS\AuthenticationService\AuthenticationService.Tests\bin\Debug\netcoreapp2.1\OTMSService.dll
+C:\Users\Vmuser\Downloads\S2\OTMS\AuthenticationService\AuthenticationService.Tests\bin\Debug\netcoreapp2.1\OTMSService.pdb
+C:\Users\Vmuser\Downloads\S2\OTMS\AuthenticationService\AuthenticationService.Tests\obj\Debug\netcoreapp2.1\OTMSService.Test.csprojAssemblyReference.cache
+C:\Users\Vmuser\Downloads\S2\OTMS\AuthenticationService\AuthenticationService.Tests\obj\Debug\netcoreapp2.1\OTMSService.Test.csproj.CoreCompileInputs.cache
+C:\Users\Vmuser\Downloads\S2\OTMS\AuthenticationService\AuthenticationService.Tests\obj\Debug\netcoreapp2.1\OTMSService.Test.AssemblyInfoInputs.cache
+C:\Users\Vmuser\Downloads\S2\OTMS\AuthenticationService\AuthenticationService.Tests\obj\Debug\netcoreapp2.1\OTMSService.Test.AssemblyInfo.cs
+C:\Users\Vmuser\Downloads\S2\OTMS\AuthenticationService\AuthenticationService.Tests\obj\Debug\netcoreapp2.1\OTMSService.Test.csproj.CopyComplete
+C:\Users\Vmuser\Downloads\S2\OTMS\AuthenticationService\AuthenticationService.Tests\obj\Debug\netcoreapp2.1\OTMSService.Test.dll
+C:\Users\Vmuser\Downloads\S2\OTMS\AuthenticationService\AuthenticationService.Tests\obj\Debug\netcoreapp2.1\OTMSService.Test.pdb

@@ -1,0 +1,26 @@
+<!-- Label to display any error messages -->
+<label class="error-message">{{errorMessage}}</label> 
+
+<!-- Expansion panel to track trip -->
+ <div class="keep-comp-note-taker-pannel">
+    <mat-expansion-panel>
+        <mat-expansion-panel-header>
+            <mat-panel-title>
+                Track Trip
+            </mat-panel-title>
+        </mat-expansion-panel-header>
+        <div class="keep-comp-note-taker-wapper">          
+           <mat-form-field>
+              <mat-label>Trips</mat-label>
+              <mat-select [(ngModel)]="tripSelectedValue" >
+                <mat-option *ngFor="let k of travelList" [value]="k.travelid">
+                  {{k.fromloc}}-->  {{k.toloc}}
+                </mat-option>
+              </mat-select>  
+            </mat-form-field>                        
+            <div class="keep-comp-button">
+                <button color="warn" mat-raised-button (click) = 'TrackTrip()'>Track</button>
+             </div>
+        </div>
+      </mat-expansion-panel>
+</div> 

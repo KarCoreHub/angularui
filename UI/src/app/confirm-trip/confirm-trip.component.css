@@ -1,0 +1,8 @@
+.keep-c-toggle-view {
+	width: 100%;
+	margin-left: 90%;
+	cursor: pointer;
+}
+.spacer {
+	flex: 1 1 auto;
+  }

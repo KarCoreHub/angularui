@@ -1,0 +1,58 @@
+<div class="register-container">
+  <mat-card>
+      <mat-card-title>User Registration </mat-card-title>
+      <mat-card-content>
+          <label class="error-message">{{ submitMessage }}</label>
+          <form class="register-form" [formGroup]="registerForm" (ngSubmit)="registerSubmit()">
+              <mat-form-field>
+                  <mat-label>FirstName</mat-label>
+                  <input matInput class="firstName" formControlName="firstName" required>
+                   <mat-error *ngIf="registerForm.get('firstName').touched && registerForm.get('firstName').hasError('required')">Enter First Name</mat-error>                       
+              </mat-form-field>
+              <mat-form-field>
+                <mat-label>LastName</mat-label>
+                <input matInput class="lastName" formControlName="lastName" required>
+                 <mat-error *ngIf="registerForm.get('lastName').touched && registerForm.get('lastName').hasError('required')">Enter Last Name</mat-error>                       
+            </mat-form-field>
+
+              <mat-form-field>
+                <mat-label>UserId</mat-label>
+                <input matInput class="UserId" formControlName="UserId" required>
+                 <mat-error *ngIf="registerForm.get('UserId').touched && registerForm.get('UserId').hasError('required')">Enter UserId</mat-error>                       
+              </mat-form-field>
+
+              <mat-form-field>
+                  <mat-label>Password</mat-label>
+                  <input matInput type="password" class="password" formControlName="password" required>
+                  <mat-error *ngIf="registerForm.get('password').touched && registerForm.get('password').hasError('required')">Enter Password</mat-error>                       
+              </mat-form-field>
+              
+              <mat-form-field>
+                <mat-label>User Type</mat-label>
+                <mat-select formControlName="Type" [(value)]="selected">                 
+                  <mat-option value="Employee">Employee</mat-option>
+                  <mat-option value="Admin">Admin</mat-option>
+                  <mat-option value="Customer">Customer</mat-option>
+                </mat-select>
+                <mat-error *ngIf="registerForm.get('Type').touched && registerForm.get('Type').hasError('required')">Enter Password</mat-error>                       
+            </mat-form-field>
+            
+            <mat-form-field>
+              <mat-label>Phone</mat-label>
+              <input matInput class="UserId" formControlName="Phone" required>
+               <mat-error *ngIf="registerForm.get('Phone').touched && registerForm.get('Phone').hasError('required')">Enter Phone</mat-error>                       
+            </mat-form-field>
+            
+            <mat-form-field>
+              <mat-label>City</mat-label>
+              <input matInput class="UserId" formControlName="City" required>
+               <mat-error *ngIf="registerForm.get('City').touched && registerForm.get('City').hasError('required')">Enter City</mat-error>                       
+            </mat-form-field>
+             
+              <mat-card-actions>
+                  <button mat-button [disabled]="registerForm.invalid">Submit</button>
+              </mat-card-actions>
+          </form>
+      </mat-card-content>
+  </mat-card>
+</div>

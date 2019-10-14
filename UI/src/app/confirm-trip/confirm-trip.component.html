@@ -1,0 +1,34 @@
+<!-- Label to display any error messages -->
+<label class="error-message">{{errorMessage}}</label> 
+
+<!-- Expansion panel to confirm trip -->
+ <div class="keep-comp-note-taker-pannel">
+    <mat-expansion-panel>
+        <mat-expansion-panel-header>
+            <mat-panel-title>
+                Confirm Trip
+            </mat-panel-title>
+        </mat-expansion-panel-header>
+        <div class="keep-comp-note-taker-wapper">          
+           <mat-form-field>
+              <mat-label>Trips</mat-label>
+              <mat-select [(ngModel)]="tripSelectedValue" >
+                <mat-option *ngFor="let k of travelList" [value]="k.travelid">
+                  {{k.fromloc}}-->  {{k.toloc}}
+                </mat-option>
+              </mat-select>  
+            </mat-form-field>   
+            <mat-form-field>
+              <mat-label>Vehicles</mat-label>
+              <mat-select  [(ngModel)]="vehicleSelectedValue">
+                <mat-option *ngFor="let k of vehicleList" [value]="k.number">
+                  {{k.number}}
+                </mat-option>
+              </mat-select>  
+            </mat-form-field>             
+            <div class="keep-comp-button">
+                <button color="warn" mat-raised-button (click) = 'ConfirmTrip()'>Confirm</button>              
+             </div>
+        </div>
+      </mat-expansion-panel>
+</div> 

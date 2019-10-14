@@ -1,0 +1,14 @@
+C:\Users\Vmuser\Downloads\S2\OTMS\AuthenticationService\AuthenticationService\bin\Debug\netcoreapp2.1\OTMSService.deps.json
+C:\Users\Vmuser\Downloads\S2\OTMS\AuthenticationService\AuthenticationService\bin\Debug\netcoreapp2.1\OTMSService.runtimeconfig.json
+C:\Users\Vmuser\Downloads\S2\OTMS\AuthenticationService\AuthenticationService\bin\Debug\netcoreapp2.1\OTMSService.runtimeconfig.dev.json
+C:\Users\Vmuser\Downloads\S2\OTMS\AuthenticationService\AuthenticationService\bin\Debug\netcoreapp2.1\OTMSService.dll
+C:\Users\Vmuser\Downloads\S2\OTMS\AuthenticationService\AuthenticationService\bin\Debug\netcoreapp2.1\OTMSService.pdb
+C:\Users\Vmuser\Downloads\S2\OTMS\AuthenticationService\AuthenticationService\obj\Debug\netcoreapp2.1\OTMSService.csproj.CoreCompileInputs.cache
+C:\Users\Vmuser\Downloads\S2\OTMS\AuthenticationService\AuthenticationService\obj\Debug\netcoreapp2.1\OTMSService.RazorAssemblyInfo.cache
+C:\Users\Vmuser\Downloads\S2\OTMS\AuthenticationService\AuthenticationService\obj\Debug\netcoreapp2.1\OTMSService.RazorAssemblyInfo.cs
+C:\Users\Vmuser\Downloads\S2\OTMS\AuthenticationService\AuthenticationService\obj\Debug\netcoreapp2.1\OTMSService.AssemblyInfoInputs.cache
+C:\Users\Vmuser\Downloads\S2\OTMS\AuthenticationService\AuthenticationService\obj\Debug\netcoreapp2.1\OTMSService.AssemblyInfo.cs
+C:\Users\Vmuser\Downloads\S2\OTMS\AuthenticationService\AuthenticationService\obj\Debug\netcoreapp2.1\OTMSService.RazorTargetAssemblyInfo.cache
+C:\Users\Vmuser\Downloads\S2\OTMS\AuthenticationService\AuthenticationService\obj\Debug\netcoreapp2.1\OTMSService.dll
+C:\Users\Vmuser\Downloads\S2\OTMS\AuthenticationService\AuthenticationService\obj\Debug\netcoreapp2.1\OTMSService.pdb
+C:\Users\Vmuser\Downloads\S2\OTMS\AuthenticationService\AuthenticationService\obj\Debug\netcoreapp2.1\OTMSService.csprojAssemblyReference.cache

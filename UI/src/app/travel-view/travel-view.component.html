@@ -1,0 +1,17 @@
+<!-- Include the travel collection with each travel rendered --> 	 
+<mat-card class='keep-c-note'>
+	<mat-card-title>TRAVEL VIEW SUMMARY	</mat-card-title>
+		<mat-label *ngFor='let travel of travels'>	
+			<mat-card-content>
+				<P>Travel Id:  {{travel.travelid}}</P>
+				<p>Customer Id:{{travel.cusid}}</p>
+				<p>Route:	   {{travel.fromloc}}-->{{travel.toloc}}</p>				
+				<p>Contact No: {{travel.contactno}}</p>
+				<p>Vehicle ID: {{travel.vehicleid}}</p>
+				<p>Status:     {{travel.status}}</p>
+				<p>Date:       {{travel.tdate}}</p>			
+			</mat-card-content>
+		</mat-label>
+</mat-card>		
+
+

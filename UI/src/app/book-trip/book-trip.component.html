@@ -1,0 +1,36 @@
+<!-- Label to display any error messages -->
+<label class="error-message">{{errorMessage}}</label> 
+
+<!-- Expansion panel to add new notes -->
+ <div class="keep-comp-note-taker-pannel">
+    <mat-expansion-panel>
+        <mat-expansion-panel-header>
+            <mat-panel-title>
+                Book Trip
+            </mat-panel-title>
+        </mat-expansion-panel-header>
+        <div class="keep-comp-note-taker-wapper">          
+            <mat-form-field>
+                <textarea [(ngModel)] = 'travel.fromloc' name="fromloc" matInput placeholder="From Location"></textarea>
+            </mat-form-field>
+            <mat-form-field>
+              <textarea [(ngModel)] = 'travel.toloc' name="ToLocation" matInput placeholder="To Location"></textarea>
+          </mat-form-field>  
+          <mat-form-field>
+            <textarea [(ngModel)] = 'travel.contactno' name="Contact" matInput placeholder="Contact Number"></textarea>
+        </mat-form-field>                
+      <mat-form-field>
+          
+            <input matInput [matDatepicker]="picker" [(ngModel)] = 'travel.TravelDate' name="TravelDate" placeholder="Select travel date">
+            <mat-datepicker-toggle matSuffix [for]="picker">
+              <mat-icon matDatepickerToggleIcon>Select Date</mat-icon>
+            </mat-datepicker-toggle>
+            <mat-datepicker #picker></mat-datepicker>               
+        
+    </mat-form-field>           
+            <div class="keep-comp-button">
+                <button color="warn" mat-raised-button (click) = 'BookTrip()'>Book Trip</button><!-- () => event binding-->
+             </div>
+        </div>
+      </mat-expansion-panel>
+</div> 
