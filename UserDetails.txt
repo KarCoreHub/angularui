@@ -1,8 +1,11 @@
-Service URL: https://otmsservice.azurewebsites.net
-UI URL: https://s2travelmgmt.azurewebsites.net
+Service URL: https://otmsserviceapi.azurewebsites.net/index.html
+UI URL: https://angulars2ui.azurewebsites.net/login
 
 Three types of users
 Admin :admin/admin
 Customer: testuser2/testuser2
-Employee : emp1/emp1
+Employee : emp1/emp
+
+
+
 
